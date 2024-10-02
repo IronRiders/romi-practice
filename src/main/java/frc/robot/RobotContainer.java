@@ -20,8 +20,8 @@ import edu.wpi.first.wpilibj2.command.button.Trigger;
  */
 public class RobotContainer {
   // The robot's subsystems and commands are defined here...
-  private final DriveSubsystem DriveSubsystem = new DriveSubsystem();
-  private final Drivecommands drivecommands = new DriveCommands;
+  private final DriveSubsystem driveSubsystem = new DriveSubsystem();
+  private final DriveCommands driveCommands = new DriveCommands();
 
   // The controller class supplies triggers for buttons and such
   private final CommandXboxController driverController =
