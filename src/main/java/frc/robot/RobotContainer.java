@@ -23,7 +23,6 @@ public class RobotContainer {
   // The controller class supplies triggers for buttons and such
   private final CommandXboxController driverController =
       new CommandXboxController(0);
-      new CommandXboxController(0);
 
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
   public RobotContainer() {
