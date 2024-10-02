@@ -8,7 +8,7 @@ import frc.robot.drive.*;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
 import edu.wpi.first.wpilibj2.command.button.Trigger;
-
+import frc.robot.drive.*;
 /**
  * This class is where the bulk of the robot should be declared. Since we use a
  * "declarative" paradigm, very little robot logic should actually be handled in the Robot
@@ -22,6 +22,7 @@ public class RobotContainer {
 
   // The controller class supplies triggers for buttons and such
   private final CommandXboxController driverController =
+      new CommandXboxController(0);
       new CommandXboxController(0);
 
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
